@@ -20,6 +20,8 @@
 
 .container.tarjeta
   overflow: hidden
+.align-self-base
+  align-self: baseline
 
 .box-shadow
   box-shadow: 0 4px 8px rgba(0,0,0,0.1)
@@ -35,9 +37,9 @@
 .bg-rojo-claro
   background-color: #FCDFDB
 .bg-azul-claro
-  background-color: #DBE7FC
+  background-color: #DCEDF8
 .bg-rosa
-  background-color: #F9E4FE
+  background-color: #F9DDFE
 .bg-amarillo
   background-color: #FDF3D2
 .bg-gris
@@ -76,6 +78,12 @@
   &-1
     background-image: url("../assets/componentes/bg-1.png") !important
     background-position: top
+  &-2
+    background-image: url("../assets/componentes/bg-2.svg") !important
+    background-position: top
+  &-3
+    background-image: url("../assets/componentes/bg-3.svg") !important
+    background-position: top
 
 .bg-full-width
   background-size: cover
@@ -84,14 +92,25 @@
 
 // ACORDEON
 .acordion__header
-  background-color: #F9E4FE!important
+  background-color: #FBEDFE!important
 .acordion__contenido
-  background-color: #F9E4FE!important  
+  background-color: #FBEDFE!important  
 .acordion__header--active
-  background-color: #6E008A!important
+  background-color: #7B3289!important
   h4, i
     color: $white !important
     font-weight: bold
+
+.acordion-2
+  .acordion__header
+    background-color: #FEF9E7 !important
+  .acordion__contenido
+    background-color: #FEF9E7 !important
+  .acordion__header--active
+    background-color: #F8CE24 !important
+    h4, i
+      color: $color-sistema-texto !important
+      font-weight: bold
 
 $custom-card-border-radius: 8px
 $custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)

@@ -20,10 +20,10 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title Bases genéticas del desarrollo humano
-              h1.home-title.mb-4.text-uppercase Biología del Desarrollo Humano
-              p.descripcion.mb-3 Desde el origen de la vida, el conocimiento sobre la genética ha sido fundamental para comprender la evolución y el desarrollo de los seres humanos. En esta primera unidad, se estudiarán las bases genéticas del desarrollo humano, analizando cómo, a partir de una única célula, el cigoto, se inician procesos de diferenciación que llevan a la formación de tejidos y órganos en el ser humano.
-              p.descripcion.mb-4 Se explorarán temas como los principios de la genética humana y la herencia, el rol del ADN y las células en la transmisión de características, y la influencia de factores genéticos y ambientales en el desarrollo cognitivo, emocional y conductual. Este conocimiento permitirá a los estudiantes aplicar conceptos biológicos en contextos educativos y clínicos.
+              p.home-main-title Fundamentos de la Ingeniería
+              h1.home-title.mb-4.text-uppercase Introducción a la Ingeniería
+              p.descripcion.mb-3 La unidad aborda los fundamentos de la ingeniería, enfatizando en el desarrollo del pensamiento crítico y la creatividad para resolver problemas. Se exploran ramas históricas y actuales, destacando su impacto en la sociedad. La Industria 4.0 se presenta como un desafío y una oportunidad para los ingenieros del futuro. Se promueve la responsabilidad social y la ética en cada proyecto.
+              p.descripcion.mb-4.text-bold ¡Sigan adelante con pasión y convicción, porque el futuro depende de su creatividad y perseverancia!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -42,7 +42,7 @@
                 alt="Logo Tecnológica del Oriente"
               )
             .col-lg.px-0.d-none.d-lg-block
-              p.footer-text.mb-0 Todo el contenido de este curso es propiedad intelectual de [Nombre de la Universidad] y está protegido por derechos de autor. No puede ser reproducido, distribuido, modificado ni compartido sin su autorización por escrito.
+              p.footer-text.mb-0 Todo el contenido de este curso es propiedad intelectual de Corporación Tecnológica del Oriente y está protegido por derechos de autor. No puede ser reproducido, distribuido, modificado ni compartido sin su autorización por escrito.
               
 </template>
 
@@ -140,11 +140,11 @@ export default {
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.25s ease-in-out
-    background-color: #5830E2 !important
-    color: $white !important
+    background-color: #F8CE24!important
+    color: $color-sistema-texto !important
   .icon
     transition: all 0.25s ease-in-out
-    background-color: #301A7B !important
+    background-color: #887013 !important
     color: $white !important
   &:hover
     .icon

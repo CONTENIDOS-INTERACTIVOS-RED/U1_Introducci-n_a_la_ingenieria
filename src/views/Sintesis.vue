@@ -2,8 +2,7 @@
 .curso-main-container.creditos-vista
   BannerInterno(:titulo="'FUNDAMENTACIÓN JURÍDICA - unidad 1'" :subTitulo="'SÍNTESIS'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La Unidad 1, "Bases genéticas del desarrollo humano", explora los fundamentos genéticos y biológicos que sustentan el desarrollo humano. Inicia con una revisión de la célula como unidad fundamental de la vida y su información genética contenida en el ADN. Se analiza cómo el ADN y los procesos de herencia influyen en las características y el desarrollo de los individuos, desde la diferenciación celular hasta la formación de tejidos y órganos.
-    p.mb-4.mb-md-5 Esta unidad establece una base sólida para entender el impacto de los factores genéticos y ambientales en el desarrollo cognitivo, emocional y conductual, proporcionando a los estudiantes conocimientos aplicables en contextos educativos y clínicos. Este enfoque integral les permitirá interpretar y aplicar conceptos biológicos para comprender el desarrollo humano en su totalidad.
+    p.mb-4.mb-md-5 En la unidad 1, <strong>Fundamentos de la ingeniería</strong>, el estudiante construirá una base de conocimientos sólidos que le permitirá transformar el mundo a su alrededor. La ingeniería no se limita a fórmulas y cálculos, sino que combina creatividad, pensamiento crítico y resolución de problemas para diseñar soluciones innovadoras. En esta unidad, aprenderá los fundamentos teóricos, explorará diversas ramas, conocerá la historia de la ingeniería y pondrá a prueba sus conocimientos básicos. Su éxito dependerá de su compromiso y curiosidad. Al finalizar, estará preparado para enfrentar los desafíos del siglo XXI y contribuir a un mundo mejor, donde la innovación no tiene límites. 
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     

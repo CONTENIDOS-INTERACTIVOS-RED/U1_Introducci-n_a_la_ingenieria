@@ -1,148 +1,215 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'unidad 1. Bases genéticas del desarrollo humano'" :subTitulo="'1. Bases genéticas del desarrollo humano'")
+  BannerInterno(:titulo="'Unidad 1. Fundamentos de la Ingeniería'" :subTitulo="'1. Fundamentos de la ingeniería'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 Se estima que el ser humano está conformado por 100 billones de células, todas ellas del tipo eucariota, que se caracterizan por tener un núcleo definido que aloja y protege la información genética, o ADN. El ADN es la molécula fundamental de la herencia, se encuentra en gran parte en el núcleo celular, pero se ha identificado ADN alojado en las mitocondrias (ADN mitocondrial).
+    p.mb-4 Como estudiantes de ingeniería, se embarcan en un <strong>viaje que fusiona teoría y creatividad práctica</strong>. Imaginen su mente como un taller donde se forjan soluciones innovadoras, combinando herramientas como matemáticas, física y lógica para desentrañar los principios que rigen su entorno. Sin embargo, la ingeniería no se limita a números y fórmulas; también impulsa a explorar el lado creativo, donde la imaginación y la intuición transforman ideas abstractas en realidades, como lo haría un artista al moldear un lienzo.
+
+    .row.mb-5
+      .col-12.col-xl-7.col-xxl-8.d-flex.flex-column
+        div.d-flex.align-items-start.bg-azul-claro.p-4.mb-4(data-aos="fade-left")
+          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-8.svg', alt='Texto que describa la imagen')
+          .d-flex.flex-column
+            p.pe-xl-3.mb-0(data-aos="fade-up") Más allá de una profesión, la ingeniería representa una forma de pensar y analizar problemas desde perspectivas múltiples, uniendo conceptos aparentemente opuestos para diseñar soluciones adecuadas y relevantes.
+        p.mb-4 A medida que avanzan en sus estudios, descubrirán el poder de esta disciplina para generar un impacto positivo en el mundo. El trabajo de un ingeniero va desde crear tecnologías sostenibles hasta diseñar infraestructuras que mejoran la vida de las personas, dejando una huella duradera en la sociedad.
+        p.mb-0 La ingeniería también fomenta habilidades fundamentales en la resolución de problemas, como:
+      .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-9.png', alt='Texto que describa la imagen')  
+
+    .row.mb-5.justify-content-center.card_hover
+      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+        .custom-image-card.d-flex.p-3
+          img.pe-2(src='@/assets/curso/unidad/img-10.svg', style="width: 80px")
+          p.px-1.align-items-center.text-small.mb-0.d-flex La capacidad para identificar necesidades específicas.
+      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+        .custom-image-card.d-flex.p-3
+          img.pe-2(src='@/assets/curso/unidad/img-11.svg', style="width: 80px")
+          p.px-1.align-items-center.text-small.mb-0.d-flex Evaluar riesgos y tomar decisiones informadas.
+      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+        .custom-image-card.d-flex.p-3
+          img.pe-2(src='@/assets/curso/unidad/img-12.svg', style="width: 80px")
+          p.px-1.align-items-center.text-small.mb-0.d-flex Pensar de manera crítica y encontrar soluciones creativas a desafíos complejos.
 
     .row.mb-5.mx-0
       .d-none.d-xl-block.col-4.px-0
-        img.h-100(src='@/assets/curso/unidad/img-10.png', alt='Texto que describa la imagen')
-      .col-12.col-xl-8.d-flex.align-items-center.bg-gris.p-4
-        p.mb-0(data-aos="fade-up") La composición del ADN está determinada por dos cadenas complementarias, que se enrollan entre sí, dando la apariencia como una escalera en forma de caracol; en realidad, a esta apariencia, se le conoce como doble hélice. Cada una de estas hebras, contiene una estructura esencial conformada por un azúcar (desoxirribosa), un fosfato y unida a cada azúcar, se encuentra una de las 4 bases nitrogenadas: adenina (A), citosina (C), guanina (G) o timina (T). Estas bases, funcionan como un “alfabeto de 4 letras”, por eso la secuencia de estas bases, determinan el mapa o el genoma del individuo y codifican información biológica; por ejemplo, las instrucciones para producir una proteína o molécula de ARN.
-
-    p.mb-5 Las dos hebras están unidas mediante enlaces químicos entre las bases, de la siguiente manera: enlaces de adenina con timina y enlaces de citosina con guanina, como se ve a continuación:
-
-    p.mb-3 <strong>Figura 1.</strong> Estructura del ADN
-    figure(data-aos="flip-up").mb-4
-      img.mb-2(src='@/assets/curso/unidad/img-11.png', alt='Texto que describa la imagen')
-      figcaption <strong>Nota.</strong> Tomado y adaptado de <a class="ui_link" href="https://www.genome.gov/es/genetics-glossary/Proyecto-Genoma-Humano">https://www.genome.gov/es/genetics-glossary/Proyecto-Genoma-Humano</a>
-
-
-    .row.mb-4
-      .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
-        img(src='@/assets/curso/unidad/img-12.png', alt='Texto que describa la imagen')  
-      .col-12.col-xl-7.col-xxl-8.d-flex.flex-column
-        div.d-flex.align-items-start.bg-amarillo.px-3.py-4(data-aos="fade-left")
-          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-13.svg', alt='Texto que describa la imagen')
-          p.pe-xl-3(data-aos="fade-up") Entre los años 1990–2003, se avanzó con una gran iniciativa de colaboración internacional denominada Proyecto Genoma Humano, cuyo propósito fue descifrar (mapear y secuenciar) el mapa completo del ADN en los humanos, teniendo como referente el ADN de cientos de personas de todo el mundo, cultura, etnia, lo que permitió de manera única en la historia de la ciencia, reservar datos genómicos de la humanidad.
-
-    p.mb-4 Esta información ha sido clave para el abordaje de la medicina, la biomédica y la ingeniería genética; en pocas palabras, la comprensión de la herencia genética dejó de ser la misma.
-
-    .row.bg-gris.bg-full-width.py-4.mb-4
-      div.px-5.pb-md-3.py-4.d-flex
-        .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
-          h2.mb-4.pb-2 Proyecto genoma humano
-          p.mb-1 Para conocer más sobre el proyecto genoma humano, ingresar a la página de National Human Genoma Research Institute, en donde se alojan recursos de información y videos para la mayor comprensión de este gran proyecto:
-          a.mt-4.d-flex.me-auto.bg-white.box-shadow.cursor-pointer.hover-zoom(data-aos="zoom-in" style="width: 340px" href="https://www.youtube.com/watch?v=sQUEc7nS9Gk" target="_blank")
-            div.bg-rojo-claro(style="width: 48px" )
-              img.h-100.mx-auto(style="width: 26px" src='@/assets/componentes/video-icon.svg', alt='Texto que describa la imagen')
-            p.fs-14px.my-auto.p-2 <strong>Video.</strong> Estructura del ADN  
-          a.mt-4.d-flex.me-auto.bg-white.box-shadow.cursor-pointer.hover-zoom(data-aos="zoom-in" style="width: 340px" href="https://www.genome.gov/About-Genomics/Educational-Resources" target="_blank")
-            div.bg-azul-claro(style="width: 48px" )
-              img.h-100.mx-auto(style="width: 22px" src='@/assets/componentes/link-icon.svg', alt='Texto que describa la imagen')
-            p.fs-14px.my-auto.p-2 <strong>Sitio web.</strong> Recursos educativos  
-          a.mt-4.d-flex.me-auto.bg-white.box-shadow.cursor-pointer.hover-zoom(data-aos="zoom-in" style="width: 340px" href="https://www.genome.gov/genetics-glossary " target="_blank")
-            div.bg-azul-claro(style="width: 48px" )
-              img.h-100.mx-auto(style="width: 22px" src='@/assets/componentes/link-icon.svg', alt='Texto que describa la imagen')
-            p.fs-14px.my-auto.p-2 <strong>Sitio web.</strong> Glosarios
-        .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
-          img.h-100(src='@/assets/curso/unidad/img-14.png', alt='Texto que describa la imagen')
-
-    p.mb-4(data-aos="fade-up") Habiendo comprendido de qué se trata el ADN y su rol en la herencia, es clave entender que el ADN sufre cambios importantes durante el ciclo de vida de una célula. El <strong>ciclo celular</strong> es el sinónimo del ciclo de vida de una célula, en donde además de crecer y cumplir con sus funciones vitales, también se reproduce, generando nuevas células. 
-    p.text-bold.mb-4 El ciclo celular tiene las siguientes etapas:
-
-    ImagenInfografica.color-secundario.mb-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/unidad/img-15.png', alt='Texto que describa la imagen')
-
-      .tarjeta.bg-white.p-4(x="70%" y="61%" numero="+")
-        .h5.mb-3 GAP 1 (G1)
-        p Es la etapa previa a la división o reproducción celular. Allí la célula crece, genera los insumos necesarios para mantener sus estructuras, para luego avanzar en la fase de duplicación del ADN donde requerirá nuevas moléculas y bases nitrogenadas. Adicionalmente, la célula crece en tamaño y sigue cumpliendo con sus funciones vitales.
-
-      .tarjeta.bg-white.p-4(x="21%" y="60%" numero="+")
-        .h5.mb-3 Fase de síntesis (S)
-        p En esta fase es cuando el ADN inicia su proceso de síntesis o duplicación. En este momento el ADN desarrolla el proceso mediante el cual dispondrá de un ADN duplicado para que, previo a la división o reproducción celular, cada célula hija disponga de la cantidad de ADN necesario. Durante esta fase, el ADN está en estado “desenrollado”, o sea que no se encuentran cromosomas dentro del núcleo celular.
-
-      .tarjeta.bg-white.p-4(x="44%" y="12%" numero="+")
-        .h5.mb-3 GAP 2 (G2)
-        p En esta fase, el ADN sufre un proceso de condensación, lo que significa que el ADN se asocia a proteínas denominadas Histonas, las cuales permiten conformar unidades empaquetadas denominadas Cromosomas. Cuando se condensa el ADN y se organiza el material genético, la célula está lista para la división celular.
-
-      .tarjeta.bg-white.p-4(x="52%" y="22%" numero="+")
-        .h5.mb-3 Fase de Meiosis o Mitosis (Fase M)
-        p Dependiendo del tipo de célula, esta entrará al ciclo de mitosis o meiosis.
+        img.h-100(src='@/assets/curso/unidad/img-13.png', alt='Texto que describa la imagen')
+      .col-12.col-xl-8.d-flex.align-items-center.bg-rosa.p-4(style="margin-left: -4px")
+        p.mb-0(data-aos="fade-up") Cada proyecto será una oportunidad para <strong>fortalecer estas habilidades</strong>, promoviendo el crecimiento tanto personal como profesional. Además, esta disciplina se apoya en principios sólidos, acumulados a lo largo de siglos de innovación, que funcionan como cimientos para resolver cualquier desafío, desde construir un puente hasta desarrollar software. Estos principios no solo facilitan la búsqueda de soluciones óptimas y responsables, sino que también enseñan a ver el mundo desde una perspectiva estructurada, permitiendo identificar patrones y conexiones entre ideas dispares.
+    p.mb-4(data-aos="zoom-in") Cualquier proyecto de ingeniería sigue un proceso claro que comienza con una idea y culmina en un producto o servicio final. Este proceso implica planificación, ejecución y constante evaluación, adaptándose a un campo dinámico y en constante evolución. Como ingenieros, deberán abrazar cada proyecto como una oportunidad de aprendizaje, contribuyendo así tanto a la sociedad como a su propio desarrollo profesional.
 
     .tarjeta.box-shadow.p-3.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/componentes/video-icon-circle.svg")
+          img(src="@/assets/componentes/pdf-icon-circle.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.text-bold.mb-2 Ciclo Celular
-              p.text-small.pe-4.pe-lg-5.me-xxl-4 Para conocer más en detalle el funcionamiento del Ciclo Celular, lo invitamos a visualizar el video Ciclo Celular y sus fases – Interfase y Mitosis. 
+              p.text-bold.mb-2 Los principios fundamentales
+              p.text-small.pe-4.pe-lg-5.me-xxl-4 Estos fundamentos son la base que guía a los ingenieros desde la identificación de problemas hasta la creación y mejora de sistemas. La ética, la responsabilidad social y la colaboración son pilares esenciales en cada proyecto. ¡Se invita a explorar el documento Los <strong>principios fundamentales</strong>, para descubrir cómo estos principios transforman ideas en soluciones que benefician a la sociedad!
             .col-sm-auto
-              a.download-btn.boton.bg-morado.text-white(href="https://www.youtube.com/watch?v=w6iJZrI2SHQ" target="_blank")
-                span.text-small Ver video
+              a.download-btn.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_Los_principios_fundamentales.pdf')" target="_blank")
+                span.text-small Descargar
                 i.fas.fa-arrow-right
 
-    .row.mb-4
-      .col-12.col-lg-7(data-aos="fade-right")
-        p.mb-4 Como se planteó anteriormente, hay dos tipos de reproducción o división celular:
-        AcordionA(tipo="b")
-          .div(titulo="Mitosis")
-            p Es elemental para el crecimiento y el mantenimiento de todos los tejidos y órganos, pues al finalizar las etapas, se generan dos células idénticas a la célula original. Las células que realizan la mitosis son somáticas, es decir, aquellas que conforman los tejidos y órganos del cuerpo y que son <strong>diploides</strong>, denominación asociada a la cantidad de cromosomas. Las células diploides mantienen la misma cantidad de cromosomas que la célula madre (2N).
-
-          .div(titulo="Meiosis")
-            p Es el proceso de reproducción que da origen a las células sexuales o gametos (óvulos y espermatozoides), las cuales más adelante darán origen a un nuevo ser vivo a través de la fecundación. Tanto el óvulo como el espermatozoide, cuentan con la mitad de su ADN, pues en la reproducción o división celular se generan cuatro células hijas, cada una con la mitad de los cromosomas que la célula original <strong>(células haploides)</strong>.
-      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
-        img.-mt-18px(src='@/assets/curso/unidad/img-16.png', alt='Texto que describa la imagen')
+    #t_1_1.titulo-segundo
+      div.d-flex
+        span.me-3 1.1 
+        h2 El ciclo de la ingeniería 
+    p.mb-5 El ciclo de la ingeniería representa un enfoque organizado y eficiente para resolver problemas complejos, mediante fases de identificación, investigación, diseño, implementación y evaluación, se asegura que cada solución cumpla con los estándares de calidad y responda a las necesidades de la sociedad. A continuación, pueden se detalla cada etapa del proceso:
 
 
-    p.mb-4 <strong>Figura 2.</strong> Comparación procesos de mitosis y meiosis
-    
-    img.mb-5(src='@/assets/curso/unidad/img-17.png', alt='Texto que describa la imagen')
+    .row.position-relative.mb-5.py-4.bg-fondo-1.bg-full-width
+      div.px-4.px-md-5.py-md-3
+        SlyderA(tipo="b").bg-white
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="fade-right")
+              p.text-bold 01. Identificación de necesidades y problemas
+              div.d-flex.mb-4
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0  <strong>Detectar necesidades:</strong> del mercado, análisis de tendencias, feedback de usuarios.
+              div.d-flex.mb-0
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0 <strong>Definir el problema:</strong> Establecer claramente el problema a resolver y sus límites.
+            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="fade-left")
+              figure
+                img(src='@/assets/curso/unidad/img-14.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.text-bold 02. Investigación y desarrollo
+              div.d-flex.mb-4
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0  <strong>Recopilación de información:</strong> Búsqueda bibliográfica, patentes, estudios de caso.
+              div.d-flex.mb-0
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0 <strong>Análisis de tecnologías:</strong> Evaluación de tecnologías existentes y emergentes.
+              div.d-flex.mb-0
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0 <strong>Desarrollo de conceptos:</strong> Generación de ideas y conceptos innovadores.
+            .d-none.d-lg-block.col-md-6.col-lg-4
+              figure
+                img(src='@/assets/curso/unidad/img-15.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.text-bold 03. Diseño y optimización
+              div.d-flex.mb-4
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0  <strong>Diseño conceptual:</strong> Creación de bocetos y modelos preliminares.
+              div.d-flex.mb-0
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0 <strong>Análisis de diseño:</strong> Simulación, prototipado, evaluación de costos.
+              div.d-flex.mb-0
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0 <strong>Optimización:</strong> Mejora del diseño en función de los criterios establecidos.
+            .d-none.d-lg-block.col-md-6.col-lg-4
+              figure
+                img(src='@/assets/curso/unidad/img-16.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.text-bold 04. Desarrollo y fabricación
+              div.d-flex.mb-4
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0  <strong>Selección de materiales:</strong> Elección de materiales adecuados para el producto o servicio.
+              div.d-flex.mb-0
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0 <strong>Proceso de fabricación:</strong> Selección de los procesos de producción más eficientes.
+              div.d-flex.mb-0
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0 <strong>Control de calidad:</strong> Implementación de sistemas de control de calidad.
+            .d-none.d-lg-block.col-md-6.col-lg-4
+              figure
+                img(src='@/assets/curso/unidad/img-17.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.text-bold 05. Implementación y pruebas
+              div.d-flex.mb-4
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0  <strong>Integración de componentes:</strong> Ensamblaje del producto final.
+              div.d-flex.mb-0
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0 <strong>Pruebas de funcionamiento:</strong> Verificación del cumplimiento de los requisitos.
+              div.d-flex.mb-0
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0 <strong>Corrección de errores:</strong> Identificación y corrección de cualquier problema. 
+            .d-none.d-lg-block.col-md-6.col-lg-4
+              figure
+                img(src='@/assets/curso/unidad/img-18.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.text-bold 06. Lanzamiento al mercado
+              div.d-flex.mb-4
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0  <strong>Introducción al mercado: </strong>Lanzamiento del producto o servicio.
+              div.d-flex.mb-0
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0 <strong>Promoción y ventas:</strong> Actividades de marketing y ventas.
+            .d-none.d-lg-block.col-md-6.col-lg-4
+              figure
+                img(src='@/assets/curso/unidad/img-19-1.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.text-bold 07. Mantenimiento
+              div.d-flex.mb-4
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0  <strong>Mantenimiento preventivo:</strong> Se realizan tareas de mantenimiento programadas para evitar fallas.
+              div.d-flex.mb-0
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0 <strong>Mantenimiento correctivo:</strong> Se solucionan los problemas que surgen durante la operación.
+            .d-none.d-lg-block.col-md-6.col-lg-4
+              figure
+                img(src='@/assets/curso/unidad/img-20-1.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.text-bold 08. Evaluación
+              div.d-flex.mb-4
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0  <strong>Análisis de resultados: </strong> Se comparan los resultados obtenidos con los objetivos establecidos.
+              div.d-flex.mb-0
+                img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+                p.mb-0 <strong>Lecciones aprendidas: </strong> Se identifican las mejores prácticas y las áreas de mejora para futuros proyectos.
+            .d-none.d-lg-block.col-md-6.col-lg-4
+              figure
+                img(src='@/assets/curso/unidad/img-21-1.png', alt='Texto que describa la imagen')
 
-    .tarjeta.box-shadow.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/componentes/link-icon-circle.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p.text-bold.mb-2 Procesos de reproducción celular
-              p.text-small.pe-4.pe-lg-5.me-xxl-4 Para conocer más sobre la estructura celular y los procesos de reproducción celular, hacer lectura de: Gutiérrez, F. (2010). Biología: La célula. Firmas Press. Páginas 48 y 159.
-            .col-sm-auto(data-aos="flip-up")
-              a.download-btn.boton.bg-morado.text-white(href="https://elibro.net/es/ereader/tecnologicadeloriente/36344?page=48 " target="_blank")
-                span.text-small Ir al sitio
-                i.fas.fa-arrow-right
+    #t_1_2.titulo-segundo
+      div.d-flex
+        span.me-3 1.2 
+        h2 Fundamentos de la ingeniería: un pilar para la innovación
+    p.mb-4 La ingeniería, en esencia, es la aplicación del conocimiento científico y matemático para diseñar, construir y mejorar estructuras, máquinas, sistemas y procesos que resuelvan problemas y satisfagan las necesidades de la sociedad. Los fundamentos de la ingeniería son los principios básicos sobre los cuales se construye toda esta disciplina. Los pilares fundamentales de la ingeniería incluyen:
 
-    h3 Un poco de historia
+    TabsC
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Matemáticas", :iconUrl="require('@/assets/curso/unidad/img-19.svg')")
+        .row
+          .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4(data-aos="flip-right")
+            figure
+              img(src='@/assets/curso/unidad/img-20.png', alt='Texto que describa la imagen')
+          .col-md-12.col-lg-7.col-xl-8.mb-4.mb-md-0
+            h4 Matemáticas
+            p(data-aos="fade-up") Son la base para modelar sistemas, analizar datos y realizar cálculos precisos. Desde el cálculo diferencial e integral hasta el álgebra lineal, las matemáticas son esenciales para cualquier ingeniero.
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Física", :iconUrl="require('@/assets/curso/unidad/img-19.svg')")
+        .row
+          .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4
+            figure
+              img(src='@/assets/curso/unidad/img-21.png', alt='Texto que describa la imagen')
+          .col-md-12.col-lg-7.col-xl-8.mb-4.mb-md-0
+            h4 Física
+            p Proporciona los principios fundamentales que rigen el comportamiento de la materia y la energía. La mecánica, la termodinámica, la electricidad y el magnetismo son algunas de las ramas de la física más relevantes para la ingeniería.
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Química", :iconUrl="require('@/assets/curso/unidad/img-19.svg')")
+        .row
+          .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4
+            figure
+              img(src='@/assets/curso/unidad/img-22.png', alt='Texto que describa la imagen')
+          .col-md-12.col-lg-7.col-xl-8.mb-4.mb-md-0
+            h4 Química
+            p Es fundamental en campos como la ingeniería de materiales, la ingeniería química y la ingeniería ambiental. Permite comprender las propiedades de los materiales y los procesos de transformación.
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Ciencias de la computación", :iconUrl="require('@/assets/curso/unidad/img-19.svg')")
+        .row
+          .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4
+            figure
+              img(src='@/assets/curso/unidad/img-23.png', alt='Texto que describa la imagen')
+          .col-md-12.col-lg-7.col-xl-8.mb-4.mb-md-0
+            h4 Ciencias de la computación
+            p Con el avance de la tecnología, la programación y el análisis de datos se han vuelto fundamentales en la ingeniería. La inteligencia artificial, el aprendizaje automático y la robótica son áreas en auge.
 
-    .row.mb-4.mx-0
-      .col-12.col-xl-8.d-flex.align-items-center.bg-amarillo.p-4
-        p.mb-0(data-aos="fade-up") Hacia el siglo XVI y XVII y con la escasa revolución de los primeros microscopios, se hacían observaciones del semen humano y de otros animales, así como de células de otro tipo. Nicolás Hartsoeker, hizo un hallazgo denominado “Animalúnculos”, que describía que en la cabeza de los espermatozoides había un individuo en miniatura. De allí se planteó una explicación sobre la herencia, en donde se afirmaba que cada espermatozoide tenía un mini-humano que solo requería un lugar femenino para ser depositado y que de allí empezaría su crecimiento. 
-      .d-none.d-xl-block.col-4.px-0
-        img.h-100(src='@/assets/curso/unidad/img-18.png', alt='Texto que describa la imagen')
 
-    p.mb-4 Esta explicación dio origen a los:
-
-    .row.mb-4
-      .col-12.col-lg-7(data-aos="fade-right")
-        AcordionA(tipo="b")
-          .div(titulo="Espermistas")
-            p Naturalistas que, describieron que, desde el origen de la humanidad, Adán, tenía en su organismo toda la humanidad en miniatura, y que estos humanos se irían transmitiendo de padre a hijo.
-
-          .div(titulo="Ovistas")
-            p Naturalistas que afirmaban que el pequeño humano se alojaba dentro del óvulo femenino, dado su tamaño (mucho más grande que un espermatozoide).
-      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
-        img.-mt-18px(src='@/assets/curso/unidad/img-19.png', alt='Texto que describa la imagen')
-
-    .row
-      .d-flex.align-items-center
-        div.d-flex.align-items-center.bg-gris.px-3.py-4
-          img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-20.svg', alt='Texto que describa la imagen')
-          p.pe-xl-3.mb-0(data-aos="fade-up") Después del desarrollo tecnológico de los microscopios y de las explicaciones experimentales futuras sobre la herencia, ambas explicaciones, la de los espermistas y la de los ovistas, quedaron totalmente refutadas.
 </template>
 
 <script>
