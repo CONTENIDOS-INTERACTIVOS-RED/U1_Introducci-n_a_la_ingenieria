@@ -20,8 +20,8 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title.text-uppercase Introducción a la Ingeniería
-              h1.home-title.mb-4.text-uppercase Fundamentos de la Ingeniería
+              p.home-main-title UNIDAD 1
+              h1.home-title.mb-4 Fundamentos de la Ingeniería
               p.descripcion.mb-3 La unidad aborda los fundamentos de la ingeniería, enfatizando en el desarrollo del pensamiento crítico y la creatividad para resolver problemas. Se exploran ramas históricas y actuales, destacando su impacto en la sociedad. La Industria 4.0 se presenta como un desafío y una oportunidad para los ingenieros del futuro. Se promueve la responsabilidad social y la ética en cada proyecto.
               p.descripcion.mb-4.text-bold ¡Sigan adelante con pasión y convicción, porque el futuro depende de su creatividad y perseverancia!
 
@@ -59,7 +59,7 @@ export default {
       max-width: 1378px
   .home-title
     font-size: 26px !important
-    font-weight: normal
+    font-weight: bold
     @media (min-width: 992px)
       font-size: 38px !important
   .home-main-title

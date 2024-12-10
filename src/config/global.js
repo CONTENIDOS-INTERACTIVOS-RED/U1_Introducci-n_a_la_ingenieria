@@ -69,6 +69,12 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'sintesis',
+        titulo: 'Síntesis',
+        unidad: '',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       // {
@@ -93,113 +99,94 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/Biologia desarrollo humano_U1.zip',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
-      },
-      {
-        icono: 'far fa-registered',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
       },
     ],
   },
   referencias: [
     {
       referencia:
-        'Ruíz Ayala, D., Saavedra Prieto, J., & Ramírez López, L. J. (2021, septiembre 7). Rol de la mujer en la ingeniería: Caso UMNG. Ponencia presentada en el Encuentro Internacional de Educación en Ingeniería ACOFI 2021.',
-      link: 'https://doi.org/10.26507/ponencia.1720',
+        'Valdez, Jael. (2009). Introducción a la ingeniería. Editorial: Grupo Editorial Éxodo.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/128567',
     },
     {
       referencia:
-        'Structuralia. (2022, agosto 2). Barómetro 2022: Informe de la formación en el sector de la ingeniería. Lifelong Learning Service.',
-      link: 'https://blog.structuralia.com/barometro-2022-para-empresas-pharos',
+        'Aristizábal, A. (2017). Fundamentos de ingeniería. Editorial Pontificia Universidad Javeriana.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/145912',
     },
     {
       referencia:
-        'Structuralia Blog. (2023, junio 22). 23 de junio, Día Internacional de la Mujer en la Ingeniería. Ingeniería Civil y Transporte.',
-      link:
-        'https://blog.structuralia.com/dia-internacional-de-la-mujer-en-la-ingenieria',
-    },
-    {
-      referencia:
-        'Structuralia Blog. (2023, noviembre 20). Las aplicaciones de la ingeniería genética moldean el futuro. Transformación Digital e Ingeniería 4.0.',
-      link: 'https://blog.structuralia.com/aplicaciones-ingenieria-genetica',
-    },
-    {
-      referencia:
-        'Vivas López, [Iniciales del nombre], Carrillo, [Iniciales del nombre], & Ruíz Ayala, D. (2021). Resumen de los mejores papers en principios fundamentales de la educación en ingeniería.',
-      link: 'https://elicit.com/notebook/0b73ea61-803c-4155-aafe-a9685cf6310a',
+        'Méndez, J. (2007). Historia de la ingeniería. Editorial: El Cid Editor.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/14017',
     },
   ],
   glosario: [
     {
       termino: 'Conocimiento',
       significado:
-        'Información adquirida a través del estudio y la experiencia',
+        'Información adquirida a través del estudio y la experiencia.',
     },
     {
       termino: 'Creatividad',
-      significado: 'Capacidad de generar ideas nuevas y originales',
+      significado: 'Capacidad de generar ideas nuevas y originales.',
     },
     {
       termino: 'Desarrollo',
-      significado: 'Proceso de crecimiento y evolución',
+      significado: 'Proceso de crecimiento y evolución.',
     },
     {
       termino: 'Diseño',
       significado:
-        'Proceso de concepción y desarrollo de un producto o sistema',
+        'Proceso de concepción y desarrollo de un producto o sistema.',
     },
     {
       termino: 'Diseño de sistema',
       significado:
-        'Proceso de creación de sistemas complejos que cumplen una función específica',
+        'Proceso de creación de sistemas complejos que cumplen una función específica.',
     },
     {
       termino: 'Ingeniería',
       significado:
-        'Disciplina que aplica conocimientos científicos y tecnológicos para resolver problemas y diseñar soluciones',
+        'Disciplina que aplica conocimientos científicos y tecnológicos para resolver problemas y diseñar soluciones.',
     },
     {
       termino: 'Innovación',
-      significado: 'Introducción de nuevos productos, procesos o ideas',
+      significado: 'Introducción de nuevos productos, procesos o ideas.',
     },
     {
       termino: 'Metodología de la ingeniería',
-      significado: 'Conjunto de métodos y técnicas utilizadas en la ingeniería',
+      significado:
+        'Conjunto de métodos y técnicas utilizadas en la ingeniería.',
     },
     {
       termino: 'Pensamiento crítico',
       significado:
-        'Capacidad de analizar información y evaluar argumentos de manera objetiva',
+        'Capacidad de analizar información y evaluar argumentos de manera objetiva.',
     },
     {
       termino: 'Principios de la ingeniería',
       significado:
-        'Conceptos fundamentales que guían la práctica de la ingeniería',
+        'Conceptos fundamentales que guían la práctica de la ingeniería.',
     },
     {
       termino: 'Problema',
-      significado: 'Situación que requiere una solución',
+      significado: 'Situación que requiere una solución.',
     },
     {
       termino: 'Resolución de problemas',
-      significado: 'Proceso de identificar, analizar y resolver problemas',
+      significado: 'Proceso de identificar, analizar y resolver problemas.',
     },
     {
       termino: 'Solución',
-      significado: 'Respuesta o resultado que resuelve un problema o necesidad',
+      significado:
+        'Respuesta o resultado que resuelve un problema o necesidad.',
     },
     {
       termino: 'Tecnología',
       significado:
-        'Conjunto de herramientas y técnicas utilizadas para resolver problemas',
+        'Conjunto de herramientas y técnicas utilizadas para resolver problemas.',
     },
   ],
   complementario: [

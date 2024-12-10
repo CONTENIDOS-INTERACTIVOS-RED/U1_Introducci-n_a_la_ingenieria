@@ -158,7 +158,7 @@
               img.mb-4(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
               div.mb-4.px-1
                 p.text-bold.text-center Desarrollo de habilidades blandas
-                p.text-small.px-4.text-center.pb-2 Además de habilidades técnicas, se necesitan competencias como trabajo en equipo, comunicación y creatividad para adaptarse a entornos de trabajo colaborativos
+                p.text-small.px-4.text-center.pb-2 Además de habilidades técnicas, se necesitan competencias como trabajo en equipo, comunicación y creatividad para adaptarse a entornos de trabajo colaborativos.
           .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mb-xl-0.mx-auto(data-aos="flip-down")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-42.png', alt='Texto que describa la imagen')
@@ -401,7 +401,7 @@
     .row.mb-5
       .col-12.col-lg-7(data-aos="fade-right")
         AcordionA(tipo="b")
-          .div(titulo="Avances tecnológicos")
+          .div(titulo="Sostenibilidad")
             p Desarrollo de soluciones ingenieriles que sean sostenibles y respetuosas con el medio ambiente.
           .div(titulo="Materiales avanzados")
             p Creación de materiales con propiedades únicas, como nanomateriales y materiales compuestos, para diversas aplicaciones.
@@ -425,6 +425,23 @@
 
         .d-none.d-xl-block.col-xl-5.col-xxl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
           img.h-100(src='@/assets/curso/unidad/img-68.png', alt='Texto que describa la imagen')
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.text-small
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/fuKJtYzNYAs?si=RWPbl23yK-WtY5GI") Universidad del rosario (12 de marzo de 2024) ¿Cuál es la importancia de los profesionales en Ingeniería Biomédica?
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/135291") Gutiérrez Ó. (2019) Formulación y evaluación de proyectos de ingeniería.
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+
 
 </template>
 

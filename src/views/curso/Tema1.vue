@@ -175,7 +175,7 @@
         h2 Fundamentos de la ingeniería: un pilar para la innovación
     p.mb-4 La ingeniería, en esencia, es la aplicación del conocimiento científico y matemático para diseñar, construir y mejorar estructuras, máquinas, sistemas y procesos que resuelvan problemas y satisfagan las necesidades de la sociedad. Los fundamentos de la ingeniería son los principios básicos sobre los cuales se construye toda esta disciplina. Los pilares fundamentales de la ingeniería incluyen:
 
-    TabsC
+    TabsC.mb-5
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Matemáticas", :iconUrl="require('@/assets/curso/unidad/img-19.svg')")
         .row
           .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4(data-aos="flip-right")
@@ -209,7 +209,21 @@
             h4 Ciencias de la computación
             p Con el avance de la tecnología, la programación y el análisis de datos se han vuelto fundamentales en la ingeniería. La inteligencia artificial, el aprendizaje automático y la robótica son áreas en auge.
 
-
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.text-small
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/5cIjmwQ6SWg?si=KOqJ0MU-4tNuTRmG") MariaCanoVirtual (25 de enero de 2022) Video - Introducción a la Ingeniería.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/35676") Kindelán, U (2007) Fundamentos matemáticos de la ingeniería. Editorial: Dykinson
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
 </template>
 
 <script>

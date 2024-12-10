@@ -39,6 +39,14 @@ const router = new VueRouter({
           component: () =>
             import(/* webpackChunkName: "tema2" */ '../views/curso/Tema2.vue'),
         },
+        {
+          path: '/sintesis',
+          name: 'sintesis',
+          component: () =>
+            import(
+              /* webpackChunkName: "sintesis" */ '../views/curso/Sintesis.vue'
+            ),
+        },
       ],
     },
     {
@@ -74,12 +82,6 @@ const router = new VueRouter({
         import(
           /* webpackChunkName: "referencias" */ '../views/Referencias.vue'
         ),
-    },
-    {
-      path: '/sintesis',
-      name: 'sintesis',
-      component: () =>
-        import(/* webpackChunkName: "sintesis" */ '../views/Sintesis.vue'),
     },
   ],
   scrollBehavior(to, from) {
