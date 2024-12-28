@@ -214,16 +214,18 @@
         h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
-            p.text-small
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/128567") Valdez, Jael (2009). Introducción a la ingeniería. Grupo Editorial Éxodo.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/35676") Kindelán, U (2007). Fundamentos matemáticos de la ingeniería. Dykinson.
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://youtu.be/5cIjmwQ6SWg?si=KOqJ0MU-4tNuTRmG") MariaCanoVirtual (25 de enero de 2022) Video - Introducción a la Ingeniería.
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/35676") Kindelán, U (2007) Fundamentos matemáticos de la ingeniería. Editorial: Dykinson
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/5cIjmwQ6SWg") MariaCanoVirtual (2022). Video - Introducción a la Ingeniería [Vídeo]
           .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 </template>
 
 <script>

@@ -431,16 +431,18 @@
         h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
-            p.text-small
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/145912") Aristizábal, A. (2017). Fundamentos de ingeniería. Editorial Pontificia Universidad Javeriana.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/135291") Gutiérrez Ó. (2019). Formulación y evaluación de proyectos de ingeniería. Editorial UPTC.
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://youtu.be/fuKJtYzNYAs?si=RWPbl23yK-WtY5GI") Universidad del rosario (12 de marzo de 2024) ¿Cuál es la importancia de los profesionales en Ingeniería Biomédica?
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/135291") Gutiérrez Ó. (2019) Formulación y evaluación de proyectos de ingeniería.
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/fuKJtYzNYAs") Universidad del rosario (2024). ¿Cuál es la importancia de los profesionales en Ingeniería Biomédica? [Vídeo]
           .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 
 </template>
