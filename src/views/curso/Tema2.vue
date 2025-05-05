@@ -277,13 +277,13 @@
     .row.bg-azul-claro.bg-full-width.py-4.mb-5
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.col-xxl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
-          h2.mb-4.pb-2.mr-auto Historia de la ingeniería y sus aplicaciones básicas
+          h2.mb-4.pb-2.mr-auto Ramas de la ingeniería
           p.mb-4 ¿Puede imaginar un mundo sin rascacielos, puentes que unan continentes o dispositivos que conecten personas en todo el planeta? ¿Qué ha impulsado la creación de nuevas ramas de la ingeniería a lo largo de la historia?
 
           p.mb-4 Lo invitamos a explorar este documento Historia de la ingeniería y sus aplicaciones básicas, que recorre cómo la ingeniería ha evolucionado, desde sus primeros logros hasta las especializaciones actuales, impulsada por avances científicos, necesidades sociales y tecnologías disruptivas. Conozca cómo los ingenieros de hoy enfrentan los desafíos más complejos de la humanidad, desde ciudades sostenibles hasta energía limpia, y cómo esta disciplina sigue moldeando el futuro.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Los_principios_fundamentales.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Ramas_de_la_ingeniería.pdf')" target="_blank")
             img.h-100(style="width: 60px" src='@/assets/curso/unidad/pdf.svg', alt='Texto que describa la imagen')
-            p.fs-14px.my-auto.p-2.text-small <strong>Anexo.</strong> Historia de la ingeniería y sus aplicaciones básicas  
+            p.fs-14px.my-auto.p-2.text-small <strong>Anexo.</strong> Ramas de la ingeniería  
 
         .d-none.d-xl-block.col-xl-5.col-xxl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
           img.h-100(src='@/assets/curso/unidad/img-55.png', alt='Texto que describa la imagen')
